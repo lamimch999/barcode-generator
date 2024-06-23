@@ -1,1 +1,149 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+  
+body{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main-content{
+    margin: auto;
+    height: 35pc;
+    width: 62pc;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.main-content .inp-field input[type="text"]{
+    justify-content: center;
+    align-items: center;
+    width: 53pc;
+    height: 3pc;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.main-content .inp-field button{
+    width: 8pc;
+    height: 3.2pc;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    background: dodgerblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-content .inp-field button:hover{
+    background-color: white;
+    color: black;
+}
+
+.main-content .inp-field input[type="text"]:focus{
+    border: 2px solid rgb(70, 179, 7);
+}
+
+.bar-c{
+    margin: auto;
+    width: 100%;
+    margin-top: 10pc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 5pc;
+}
+
+.inp-field{
+    margin-top: 17pc;
+}
+
+.header{
+    background: dodgerblue;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.hide-v{
+    float: right;
+    font-size: 22px;
+    margin-top: 2pc;
+}
+
+.hide-v input[type="checkbox"]{
+    width: 2pc;
+    height: 1.4pc;
+}
+
+.bar-c svg{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.download-btn{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 14pc;
+}
+
+.download-btn button{
+    background-color: #108;
+    color: white;
+    border: 2px solid navy;
+    padding: 12px 26px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+@media(max-width:1000px){
+    .main-content .inp-field input[type="text"]{
+        width: 30pc;
+    }
+    
+    .main-content{
+        width: 39pc;
+    }
+}
+
+@media(max-width:640px){
+     .main-content .inp-field input[type="text"]{
+        width: 17pc;
+    }
+    
+    .main-content{
+        width: 26pc;
+    }
+}
+
+@media(max-width:420px){
+     .main-content .inp-field input[type="text"]{
+        width: 12pc;
+    }
+    
+    .main-content{
+        width: 21pc;
+    }
+}
+
+@media(max-width:340px){
+     .main-content .inp-field input[type="text"]{
+        width: 10pc;
+    }
+    
+    .main-content{
+        width: 19pc;
+    }
+}
